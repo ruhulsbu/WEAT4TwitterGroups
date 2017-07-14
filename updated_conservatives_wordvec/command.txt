@@ -1,0 +1,29 @@
+0. Basic Analysis
+a. Histogram or Terms from Tweets:
+multip_term_histogram_fast.py directory
+
+b. Extract Tweets:
+extract_tweet_words.py directory
+
+c. Gensim Word2Vec:
+gensim_word_to_vector.py
+
+
+--------------------------------
+1. Create Conservate Tweets Dump
+time /gpfs/software/Anaconda2/bin/python extract_conservative_tweet.py /gpfs/projects/jjones/twitter_one_percent/ > log_conservative_tweets.txt
+2. Create Gensim Word2Vec Model for Conservative
+/gpfs/software/Anaconda3/bin/python conservative_word_to_vector.py
+ 
+
+----------------------------
+3. Create Liberal Tweets Dump
+time /gpfs/software/Anaconda2/bin/python extract_liberal_tweet.py /gpfs/projects/jjones/twitter_one_percent/ > log_liberal_tweets.txt
+4. Create Gensim Word2Vec Model for Liberal
+/gpfs/software/Anaconda3/bin/python liberal_word_to_vector.py
+
+
+------------------
+5. Visualize Model
+/gpfs/software/Anaconda3/bin/python tsne_graphing_gensim_model.py ./model_visualize/model_liberal god
+/gpfs/software/Anaconda3/bin/python tsne_graphing_gensim_model.py ./model_visualize/model_conservative god
