@@ -1,0 +1,8 @@
+good
+bad
+nice
+mean
+rough
+gentle
+assertive
+rude

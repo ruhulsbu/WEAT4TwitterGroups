@@ -1,0 +1,12 @@
+stevedore
+laborer
+sailor
+driver
+operator
+baker
+janitor
+cleaner
+cook
+cashier
+waiter
+waitress

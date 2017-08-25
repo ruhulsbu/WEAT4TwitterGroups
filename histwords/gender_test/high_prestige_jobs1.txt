@@ -1,0 +1,15 @@
+doctor
+officer
+firefighter
+scientist
+nurse
+engineer
+priest
+architect
+athlete
+teacher
+lawyer
+executive
+actor
+entertainer
+senator

@@ -1,0 +1,8 @@
+farmer
+journalist
+accountant
+banker
+stockbroker
+union
+broker
+agent

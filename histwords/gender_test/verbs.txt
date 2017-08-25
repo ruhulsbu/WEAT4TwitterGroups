@@ -1,0 +1,10 @@
+run
+jump
+hit
+kill
+stand
+sit
+hug
+save
+love
+hate
